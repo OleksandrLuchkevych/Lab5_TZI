@@ -42,7 +42,7 @@ def decrypt_text(encrypted_blocks, round_keys):
     return decrypted_text
 
 if __name__ == "__main__":
-    original_text = "Hello, Feistel!"
+    original_text = "Hello its me"
     print("Original Text:", original_text)
     
     round_keys = generate_round_keys()
